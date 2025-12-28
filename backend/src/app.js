@@ -28,6 +28,7 @@ app.use(
       process.env.NODE_ENV === "production"
         ? [
             "https://cipher-sql-studio-frontend.vercel.app",
+            "https://cipherschool.shubhranshu.tech",
             process.env.FRONTEND_URL,
           ].filter(Boolean)
         : ["http://localhost:3002", "http://localhost:3000", "http://localhost:5173"],
