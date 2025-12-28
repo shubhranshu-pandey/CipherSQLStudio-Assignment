@@ -27,7 +27,7 @@ app.use(
     origin:
       process.env.NODE_ENV === "production"
         ? [
-            "https://cipher-sql-studio-lac.vercel.app",
+            "https://cipher-sql-studio-frontend.vercel.app",
             process.env.FRONTEND_URL,
           ].filter(Boolean)
         : ["http://localhost:3002", "http://localhost:3000", "http://localhost:5173"],

@@ -13,6 +13,11 @@ yarn-error.log*
 backend/.env
 frontend/.env
 
+# Docker and deployment scripts
+docker-compose.prod.yml
+quick-deploy.sh
+deploy.sh
+
 # Build outputs (keep for deployment verification)
 frontend/dist/
 frontend/build/
