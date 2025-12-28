@@ -18,6 +18,9 @@ docker-compose.prod.yml
 quick-deploy.sh
 deploy.sh
 
+# Backend documentation
+backend/ASSIGNMENT_SCHEMA.md
+
 # Build outputs (keep for deployment verification)
 frontend/dist/
 frontend/build/

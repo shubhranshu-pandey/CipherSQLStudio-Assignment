@@ -4,7 +4,7 @@ class LLMService {
   constructor() {
     this.genAI = new GoogleGenerativeAI(process.env.LLM_API_KEY);
     this.model = this.genAI.getGenerativeModel({
-      model: "gemini-2.5-flash-lite",
+      model: process.env.LLM_MODEL || "gemini-1.5-flash",
     });
   }
 
